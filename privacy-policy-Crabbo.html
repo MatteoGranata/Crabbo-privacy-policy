@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Privacy Policy - Crabbo</title>
+<style>
+  :root {
+    --bg: #F5EDC9;
+    --card: #ffffff;
+    --text: #222222;
+    --text-soft: #5a5a5a;
+    --accent: #9FD4CE;
+    --accent-dark: #2F6B64;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #1c1c1c;
+      --card: #2a2a2a;
+      --text: #f0f0f0;
+      --text-soft: #b5b5b5;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #1c1c1c;
+    --card: #2a2a2a;
+    --text: #f0f0f0;
+    --text-soft: #b5b5b5;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    line-height: 1.6;
+  }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 20px 64px;
+  }
+  header {
+    margin-bottom: 24px;
+  }
+  h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0 0 4px;
+  }
+  .subtitle {
+    color: var(--text-soft);
+    font-size: 0.95rem;
+  }
+  .card {
+    background: var(--card);
+    border-radius: 18px;
+    padding: 20px 24px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+  h2 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--accent-dark);
+    margin: 0 0 10px;
+  }
+  p { margin: 0 0 10px; }
+  ul { margin: 0 0 10px; padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent-dark); }
+  .badge {
+    display: inline-block;
+    background: var(--accent);
+    color: var(--accent-dark);
+    font-weight: 700;
+    font-size: 0.85rem;
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+  }
+  footer {
+    text-align: center;
+    color: var(--text-soft);
+    font-size: 0.85rem;
+    margin-top: 32px;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="badge">Nessun dato raccolto</div>
+      <h1>Privacy Policy di Crabbo</h1>
+      <div class="subtitle">Ultimo aggiornamento: settembre 2026</div>
+    </header>
+
+    <div class="card">
+      <h2>Panoramica</h2>
+      <p>
+        Crabbo è un'applicazione per la gestione personale delle spese. Questa privacy policy
+        spiega in modo chiaro e diretto come vengono trattati i dati all'interno dell'app.
+      </p>
+      <p>
+        <strong>Crabbo non raccoglie, non trasmette e non condivide alcun dato personale con
+        l'sviluppatore o con terze parti.</strong> Tutte le informazioni inserite nell'app
+        rimangono esclusivamente sul dispositivo dell'utente.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Quali dati vengono salvati</h2>
+      <p>Crabbo salva localmente, solo sul tuo dispositivo, le seguenti informazioni:</p>
+      <ul>
+        <li>Le spese che inserisci (titolo, importo, data, nota, categoria/tag, colore)</li>
+        <li>Le preferenze dell'app (ad esempio se mostrare data e ora nelle spese)</li>
+      </ul>
+      <p>
+        Questi dati vengono memorizzati tramite lo storage locale del dispositivo (AsyncStorage)
+        e non vengono mai inviati a un server, a un database esterno o a servizi di terze parti.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Cosa NON fa Crabbo</h2>
+      <ul>
+        <li>Non richiede la creazione di un account</li>
+        <li>Non raccoglie dati di posizione</li>
+        <li>Non utilizza servizi di analisi, tracciamento o pubblicità</li>
+        <li>Non condivide dati con terze parti, perché non ne raccoglie alcuno</li>
+        <li>Non effettua alcuna connessione di rete per trasmettere i tuoi dati</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Cancellazione dei dati</h2>
+      <p>
+        Poiché tutti i dati risiedono solo sul tuo dispositivo, puoi eliminarli in qualsiasi
+        momento direttamente dall'app (eliminando le singole spese) oppure disinstallando
+        l'applicazione, il che rimuove automaticamente tutti i dati salvati.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Modifiche a questa policy</h2>
+      <p>
+        Questa privacy policy potrebbe essere aggiornata in futuro qualora venissero introdotte
+        nuove funzionalità che modificano il trattamento dei dati. Eventuali modifiche saranno
+        pubblicate su questa stessa pagina.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Contatti</h2>
+      <p>
+        Per qualsiasi domanda relativa a questa privacy policy o al funzionamento dell'app,
+        puoi contattarci all'indirizzo:
+      </p>
+      <p><a href="mailto:matteogranata492@gmail.com">matteogranata492@gmail.com</a></p>
+    </div>
+
+    <footer>
+      Crabbo — Privacy Policy
+    </footer>
+  </div>
+</body>
+</html>
